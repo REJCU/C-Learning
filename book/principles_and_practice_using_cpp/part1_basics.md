@@ -75,18 +75,27 @@ ments) that the function is to perform.
 
 ## 2 - Objects, Types, and Values
 
-Introduces the basics of storing and using data in a program. 
-Input
-Variables
-Input and type
-Operations and operators
-Assignment and initialization
-An example: detect repeated words; Composite assignment operators; An exam-
-ple: ﬁnd repeated words
-Names
-Types and objects
-Type safety
-Conversions
-Type deduction: auto
+### Input
+
+Somewhere in the computer memory to place what we read. Call that place an object. 
+An object is a region of memory with a type that speciﬁes what kind of information can be be placed within it.
+Named object is called a variable. For example, character strings are put into string variables and integers are put into int variables. 
+
+Think of an object as a "box" into which you can put a value of the objects type. 
+
+#### cin stands for character Input
+
+
+
+### variables
+"places" in which we store data are called objects. To access an object, we need a name. A named object is called a variable and has a speciﬁe type (int,string,...) that determines what can be put into the object and which operations can be applied. 
+
+The data items we put into variables are called Values. A statement that defines a variable is called a definition. 
+
+int number_of_steps = 39; int for integers
+double ﬂying_time = 3.5; double for floating point numbers
+char decimal_point = '.'; char for individual characters 
+string name = "Annemarie"; strings for character strings
+bool tap_on = true; bool for logical variables
 
 
